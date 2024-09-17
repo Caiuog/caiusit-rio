@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Carros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ddd 1px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .video-item {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .video-item h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .video-item p {
+            font-size: 16px;
+            color: #555;
+        }
+        .video-item iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Catálogo de Vídeos de Carros</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="video-item">
+            <h2>Carros de Luxo 2024</h2>
+            <p>Uma visão dos mais novos carros de luxo lançados em 2024.</p>
+            <iframe src="https://www.youtube.com/embed/ysfMiaCZyXg" allowfullscreen></iframe>
+        </div>
+        <div class="video-item">
+            <h2>Top 10 Carros Esportivos</h2>
+            <p>Confira a lista dos 10 carros esportivos mais rápidos de 2024.</p>
+            <iframe src="https://www.youtube.com/embed/Rt8-m2prw7g" allowfullscreen></iframe>
+        </div>
+        <div class="video-item">
+            <h2>Carros Elétricos Incríveis</h2>
+            <p>Os carros elétricos que estão revolucionando o mercado automotivo.</p>
+            <iframe src="https://www.youtube.com/embed/OXtOUUTIzS4" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
